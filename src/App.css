@@ -1,0 +1,76 @@
+.loader {
+  border: 12px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 12px solid #3498db;
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 2s linear infinite; /* Safari */
+  animation: spin 2s linear infinite;
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.fullBody {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.customBody {
+  flex: 1;
+  background-color: #483a2f;
+}
+.iconBtn img {
+  width: 30px;
+}
+.btn-primary.customBtn {
+  background-color: #bb2024;
+  border-color: #bb2024;
+  box-shadow: none !important;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.btn-primary.customBtn.focus,
+.btn-primary.customBtn:focus {
+  box-shadow: none;
+}
+
+.btn-primary.customBtn:not(:disabled):not(.disabled).active,
+.btn-primary.customBtn:not(:disabled):not(.disabled):active,
+.btn-primary.customBtn:hover,
+.show > .btn-primary.customBtn.dropdown-toggle {
+  background-color: #bb2025bb;
+  border-color: #bb2025bb;
+}
+.tableHeadings {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.tableHeadings > div {
+  flex: 1;
+}
+.myCard {
+  background-color: #fef4af;
+  border-radius: 10px;
+}
+.clickable {
+  cursor: pointer;
+}

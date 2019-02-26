@@ -1,0 +1,15 @@
+.cardMeta .tableHeadings {
+  font-size: 13px;
+  padding: 10px 15px;
+}
+
+.cardMeta .tableHeadings.dark.borderBottom {
+  border-bottom: 1px solid #7b755d;
+}
+.cardMeta .tableHeadings.light.borderBottom {
+  border-bottom: 1px solid #c3bb94;
+}
+
+.cardMeta .tableHeadings > div.bold {
+  font-family: "DAKBold";
+}
