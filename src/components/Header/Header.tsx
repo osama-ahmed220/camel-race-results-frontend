@@ -68,7 +68,7 @@ class Header extends React.Component<Props, State> {
             <Nav className="ml-auto" navbar>
               <NavItem>
                 <NavLink
-                  href="/components/"
+                  href="#"
                   className="container-fluid d-flex justify-content-between align-items-center"
                 >
                   <img
@@ -80,7 +80,7 @@ class Header extends React.Component<Props, State> {
               </NavItem>
               <NavItem>
                 <NavLink
-                  href="https://github.com/reactstrap/reactstrap"
+                  href="#"
                   className="container-fluid d-flex justify-content-between align-items-center"
                 >
                   <img
@@ -92,7 +92,7 @@ class Header extends React.Component<Props, State> {
               </NavItem>
               <NavItem>
                 <NavLink
-                  href="https://github.com/reactstrap/reactstrap"
+                  href="#"
                   className="container-fluid d-flex justify-content-between align-items-center"
                 >
                   <img

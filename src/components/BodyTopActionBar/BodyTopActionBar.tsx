@@ -21,7 +21,7 @@ const BodyTopActionBar = () => {
             <img
               src={require("../../assets/images/add_mobile.png")}
               alt=""
-              style={{ width: 20 }}
+              style={{ width: 15 }}
             />
           </a>
         </div>
