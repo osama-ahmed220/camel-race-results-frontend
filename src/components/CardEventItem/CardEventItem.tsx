@@ -46,10 +46,10 @@ class CardEventItem extends Component<Props, State> {
     return (
       <div className="eventPanel mt-2">
         <div
-          className="eventPanelHeader d-flex justify-content-between flex-row-reverse clickable"
+          className="eventPanelHeader d-flex justify-content-between flex-row-reverse clickable align-items-center"
           onClick={this.toggle}
         >
-          <div className="text-right" style={{ flex: 1 }}>
+          <div className="eventName text-right" style={{ flex: 1 }}>
             {name}
           </div>
           <div style={{ fontWeight: "bold" }}>{totalNumber}</div>

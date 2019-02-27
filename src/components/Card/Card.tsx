@@ -75,7 +75,7 @@ class Card extends Component<Props, State> {
           </div>
           <div>{position}</div>
           <div className="text-right" style={{ flex: 1.5 }}>
-            محمد راشد بن غدير الكتبي
+            {name}
           </div>
           <div>{totalCode}</div>
           <div>{totalPoints}</div>
